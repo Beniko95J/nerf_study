@@ -1,7 +1,7 @@
 #!/bin/bash
 # apt dependencies
 sudo apt update
-sudo apt-get install ffmpeg libsm6 libxext6 -y
+sudo apt-get install ffmpeg libsm6 libxext6 mogrify -y
 
 # pip dependencies
 pip install -r requirements.txt
