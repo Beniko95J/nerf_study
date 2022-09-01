@@ -1,0 +1,24 @@
+expname = scene0000_01_depth_weighted_loss
+basedir = ./logs
+datadir = ./data/nerfing_raw_data/scene0000_01
+dataset_type = llff
+
+factor = 2
+llffhold = 8
+
+N_rand = 1024
+N_samples = 64
+N_importance = 64
+
+use_viewdirs = True
+raw_noise_std = 1e0
+
+no_ndc = True
+spherify = True
+lindisp = True
+
+colmap_depth = True
+depth_loss = True
+depth_lambda = 0.1
+weighted_loss = True
+
