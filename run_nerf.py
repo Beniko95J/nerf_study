@@ -276,9 +276,6 @@ def create_nerf(args):
     render_kwargs_test['perturb'] = False
     render_kwargs_test['raw_noise_std'] = 0.
 
-    if args.sigma_loss:
-        pass
-
     return render_kwargs_train, render_kwargs_test, start, grad_vars, optimizer
 
 
